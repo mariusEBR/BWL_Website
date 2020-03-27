@@ -1,13 +1,113 @@
 body{
-    background-color: turquoise;
-    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    font-family: sans-serif;
+    line-height: 1.5;
+} 
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
 }
 
-div{
-    background-color: tomato;
-    display: none;
+#top{
+    background: black;
 }
 
-h1:hover + div {
-    display: block;
+.social-media{
+    float: left;
+}
+
+.social-media a.fa{
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(199, 187, 187);
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+p{
+    float: right;
+    margin: 10%;
+    cursor: pointer;
+}
+
+nav{
+    background-color: black;
+    border-top: gray 2px solid;
+
+}
+
+.logo{
+    float: left;
+    width: 40px;
+
+}
+
+ul{
+    float: right
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+ul li a{
+    padding: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: red;
+    transition: 0.9s;
+}
+
+#headings{
+    background: linear-gradient(rgba(0,0,10,0.5), rgba(0,0,10,0.5)), url(../BWL_Website/arbeitsplatz-bilderrahmen-boden-brille-164437.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.centered{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: 2px solid red;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color:rgb(82, 15, 15);
+    width: 50%;
+}
+
+.btn:hover{
+    font-size: 19px;
+    transition: 1s;
+    background-color: unset;
 }
