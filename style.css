@@ -4353,3 +4353,17 @@ h3{
 .Kontakt{
 	float: right;
 }
+
+.Produkt{
+	border-radius: 10px;
+	-moz-border-image: 10px;
+	-webkit-border-image: 10px;
+	height: 400px;
+	width: 400px;
+}
+
+.Produkt:hover{
+	height: 470px;
+	width: 470px;
+	transition: 1s;
+}
