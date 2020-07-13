@@ -1566,7 +1566,6 @@ body {
 /* Site branding */
 
 .site-branding {
-	padding: 1em 0;
 	position: relative;
 	-webkit-transition: margin-bottom 0.2s;
 	transition: margin-bottom 0.2s;
@@ -3293,9 +3292,7 @@ p > object:only-child {
 
 	/* Site Branding */
 
-	.site-branding {
-		padding: 3em 0;
-	}
+	
 
 	/* Front Page */
 
@@ -4366,4 +4363,25 @@ h3{
 	height: 420px;
 	width: 420px;
 	transition: 1s;
+}
+
+video {
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	width: 170%;
+  	height: 200%; 
+  	overflow: hidden;
+	min-width: 150%; 
+ 	min-height: 150%; 
+
+  	/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  	width: auto;
+  	height: auto;
+
+  	/* Center the video */
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
 }
